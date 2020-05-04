@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>制作导航条</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            border-radius: 15px;
+        }
+
+        a:hover {
+            background-color: yellowgreen;
+        }
+
+        nav {
+            border: 1px #eee solid;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        ul li {
+            text-align: center;
+            display: inline-block;
+            line-height: 40px;
+            width: 8rem;
+            list-style: none;
+            background-color: chocolate;
+            margin: 0 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">企业概况</a></li>
+            <li><a href="#">信息中心</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

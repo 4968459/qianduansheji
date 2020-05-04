@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跨行或跨列的表格单元格</title>
+</head>
+
+<body>
+    <p>横跨两列的单元格:</p>
+    <table border="1px">
+        <tr>
+            <th width="150px">姓名</th>
+            <th colspan="2" width="300px">电话</th>
+        </tr>
+        <tr>
+            <td>李刚</td>
+            <td>66666666</td>
+            <td>88888888</td>
+        </tr>
+    </table>
+    <p>横跨两行的单元格:</p>
+    <table border="1px">
+        <tr>
+            <th width="150px">姓名</th>
+            <td width="300px">李刚</td>
+        </tr>
+        <tr>
+            <th rowspan="2">电话</th>
+            <td>66666666</td>
+        </tr>
+        <td>88888888</td>
+        <tr></tr>
+    </table>
+</body>
+
+</html>
